@@ -1,0 +1,30 @@
+{
+  "name": "cyber-security-project-1",
+  "version": "1.0.0",
+  "description": "Tämä on [HY:n kurssin](https://cybersecuritybase.mooc.fi/module-3.1) palautusrepo.",
+  "homepage": "https://github.com/tomjtoth/cyber-security-project-1#readme",
+  "bugs": {
+    "url": "https://github.com/tomjtoth/cyber-security-project-1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomjtoth/cyber-security-project-1.git"
+  },
+  "license": "ISC",
+  "author": "Tamás Tóth",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.13",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
